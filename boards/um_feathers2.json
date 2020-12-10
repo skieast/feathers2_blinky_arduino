@@ -1,0 +1,31 @@
+{
+"build": {
+  "f_cpu": "240000000L",
+  "f_flash": "40000000L",
+  "flash_mode": "qio",
+  "core": "esp32",
+  "mcu": "esp32s2",
+  "partitions": "default_16MB.csv",
+  "variant": "um_feathers2",
+  "extra_flags": "-DARDUINO_UMFEATHERS2"
+ },
+ "connectivity": [
+   "wifi",
+   "ethernet",
+   "can"
+ ],
+ "frameworks": [
+   "arduino",
+   "espidf"
+ ],
+ "name": "UM_FeatherS2",
+ "upload": {
+   "flash_size": "16MB",
+   "maximum_ram_size":  245760,
+   "maximum_size":    16777216,
+   "require_upload_port": true,
+   "speed": 921600
+ },
+ "url": "https://unexpectedmaker.com/shop/feathers2-esp32-s2",
+ "vendor": "UNexpectedMaker"
+}
